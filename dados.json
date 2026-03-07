@@ -1,0 +1,130 @@
+{
+  "Apple": {
+    "iPhone 11": {
+      "tela": 350,
+      "bateria": 200,
+      "conector": 150
+    },
+    "iPhone 12": {
+      "tela": 600,
+      "bateria": 250,
+      "conector": 180
+    },
+    "iPhone 13": {
+      "tela": 750,
+      "bateria": 300,
+      "conector": 200
+    },
+    "iPhone 14": {
+      "tela": 900,
+      "bateria": 350,
+      "conector": 220
+    },
+    "iPhone 15": {
+      "tela": 1200,
+      "bateria": 400,
+      "conector": 250
+    }
+  },
+
+  "Samsung": {
+    "Galaxy A20": {
+      "tela": 150,
+      "bateria": 90
+    },
+    "Galaxy A30": {
+      "tela": 170,
+      "bateria": 100
+    },
+    "Galaxy A50": {
+      "tela": 220,
+      "bateria": 120
+    },
+    "Galaxy A51": {
+      "tela": 250,
+      "bateria": 130
+    },
+    "Galaxy A52": {
+      "tela": 320,
+      "bateria": 150
+    },
+    "Galaxy A53": {
+      "tela": 350,
+      "bateria": 160
+    },
+    "Galaxy A54": {
+      "tela": 420,
+      "bateria": 180
+    },
+    "Galaxy S20": {
+      "tela": 900,
+      "bateria": 250
+    },
+    "Galaxy S21": {
+      "tela": 1100,
+      "bateria": 300
+    },
+    "Galaxy S22": {
+      "tela": 1300,
+      "bateria": 350
+    },
+    "Galaxy S23": {
+      "tela": 1500,
+      "bateria": 400
+    }
+  },
+
+  "Xiaomi": {
+    "Redmi Note 9": {
+      "tela": 150,
+      "bateria": 100
+    },
+    "Redmi Note 10": {
+      "tela": 200,
+      "bateria": 120
+    },
+    "Redmi Note 11": {
+      "tela": 250,
+      "bateria": 140
+    },
+    "Redmi Note 12": {
+      "tela": 320,
+      "bateria": 160
+    },
+    "Poco X3": {
+      "tela": 280,
+      "bateria": 150
+    },
+    "Poco X4 Pro": {
+      "tela": 350,
+      "bateria": 170
+    }
+  },
+
+  "Motorola": {
+    "Moto G20": {
+      "tela": 160,
+      "bateria": 100
+    },
+    "Moto G30": {
+      "tela": 180,
+      "bateria": 110
+    },
+    "Moto G31": {
+      "tela": 200,
+      "bateria": 120
+    },
+    "Moto G52": {
+      "tela": 260,
+      "bateria": 140
+    },
+    "Moto G62": {
+      "tela": 300,
+      "bateria": 160
+    },
+    "Moto G72": {
+      "tela": 350,
+      "bateria": 180
+    }
+  }
+}
