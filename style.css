@@ -69,6 +69,7 @@ footer{
 /* _________________________________________________ */
 .hero-img {
   width: 45vh;
+  top: 15px;
 }
 .hero-title {
   box-shadow: 0 0 20px rgba(0, 0, 0, 1);
@@ -83,16 +84,47 @@ footer{
   padding: 2vh;
 }
 .hero-texts > h4 {
-  padding: 1vh;
+  margin: 1vh;
+}
+.hero-orcament {
+  padding: 2vh;
+  display: flex;
+  flex-direction: column;
+}
+/* _________________________________________________ */
+.button-img {
+  width: 100%;
+  /* animation: orcament 1s ease-in-out infinite alternate; */
 }
 /* _________________________________________________ */
 #home {
-  margin-top: 15vh;
+  margin-top: 5vh;
   width: 100%;
   max-width: 1200px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+/* _________________________________________________ */
+#button-orcament {
+  position: relative;
+  display: flex;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  border: none;
+}
+
+#button-orcament::before{
+  content: "";
+  position: absolute;
+  inset: 3px;
+  background: linear-gradient(90deg, #fff,#fff,red,#fff, #fff, #fff);
+  background-size: 300% 100%;
+  z-index: -1;
+  border-radius: 50px;
+  animation: borda 2s linear infinite;
 }
 /* _________________________________________________ */
 #logos div {
@@ -115,6 +147,9 @@ footer{
   text-align: center;
 }
 #about div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 10vh;
   border-radius: 15px;
   color: #fff;
@@ -130,7 +165,41 @@ footer{
   width: 10vh;
   border-radius: 50px;
 }
+/* __________________________________________________________________ */
+/* _________________________________________________ */
+#body-pesquisa{
+  font-family: Arial;
+  background: #f4f4f4;
+}
+/* _________________________________________________ */
+#main-pesquisa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* _________________________________________________ */
+#tabela-celulares {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+#tabela-celulares th,td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
 
+#tabela-celulares th {
+  background: #333;
+  color: white;
+}
+#tabela-celulares tr:nth-child(even){
+  background: #f2f2f2;
+}
+#tabela-celulares tr{
+  background: #ddd;
+}
 /* _________________________________________________ */
 
 @keyframes animate {
@@ -139,6 +208,23 @@ footer{
   }
   to {
     background-size: 100%;
+  }
+}
+
+@keyframes orcament {
+  from {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes borda{
+  from {
+    background-position: 0% 0;
+  }
+  to {
+    background-position: -300% 0;
   }
 }
 
@@ -151,7 +237,6 @@ footer{
 
   #home {
     flex-direction: column;
-    margin-top: 15vh;
   }
   #home > img {
     width: 40vw;

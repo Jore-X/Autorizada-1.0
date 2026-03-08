@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AUTORIZADA</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body id="body-pesquisa">
+    <!-- _______________________________________________________________________ -->
+    <header>
+      <div>
+        <h1>Rei dos Celulares</h1>
+        <h3>Seu celular quebrou ou parou de funcionar? Nós resolvemos.</h3>
+      </div>
+    </header>
+    <!-- _______________________________________________________________________ -->
+    <main id="main-pesquisa">
+      <div>
+        <select id="marca">
+          <option value="">Escolha a marca</option>
+          <option value="iphone">iPhone</option>
+          <option value="samsung">Samsung</option>
+          <option value="xiaomi">Xiaomi</option>
+          <option value="lg">LG</option>
+          <option value="motorola">Motorola</option>
+        </select>
+
+        <select id="modelo">
+          <option value="">Escolha o modelo</option>
+        </select>
+
+        <select id="servico">
+          <option value="">Escolha o serviço</option>
+          <option value="tela">Troca de tela</option>
+          <option value="bateria">Troca de bateria</option>
+        </select>
+
+        <h3 id="preco"></h3>
+      </div>
+      <div>
+        <table id="tabela-celulares" border="1">
+          <thead>
+            <tr>
+              <th>Marca</th>
+              <th>Modelo</th>
+              <th>Tela (R$)</th>
+              <th>Bateria (R$)</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <!-- _________________________________________________________________________ -->
+      <a
+        id="whats-icon"
+        href="https://wa.me/5538998013214?text=Olá%20Sérgio!"
+        target="_blank"
+        ><img src="./assets/img/whatsapp-icon.png" alt="Whatsapp"
+      /></a>
+      <!-- _________________________________________________________________________ -->
+    </main>
+    <!-- _______________________________________________________________________ -->
+    <script src="./script.js"></script>
+  </body>
+</html>
