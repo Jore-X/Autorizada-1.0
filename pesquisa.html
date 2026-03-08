@@ -9,35 +9,26 @@
   <body id="body-pesquisa">
     <!-- _______________________________________________________________________ -->
     <header>
+      <a href="./index.html"> <img src="./assets/img/Back.jpg" alt=""></a>
       <div>
         <h1>Rei dos Celulares</h1>
-        <h3>Seu celular quebrou ou parou de funcionar? Nós resolvemos.</h3>
+        <p>Seu celular quebrou ou parou de funcionar? Nós resolvemos.</p>
       </div>
     </header>
     <!-- _______________________________________________________________________ -->
     <main id="main-pesquisa">
       <div>
-        <select id="marca">
-          <option value="">Escolha a marca</option>
-          <option value="iphone">iPhone</option>
-          <option value="samsung">Samsung</option>
-          <option value="xiaomi">Xiaomi</option>
-          <option value="lg">LG</option>
-          <option value="motorola">Motorola</option>
+        <select id="filtroMarca">
+          <option value="">Todas as Marcas</option>
         </select>
-
-        <select id="modelo">
-          <option value="">Escolha o modelo</option>
+        
+        <select id="filtroModelo">
+          <option value="">Todos os Modelos</option>
         </select>
-
-        <select id="servico">
-          <option value="">Escolha o serviço</option>
-          <option value="tela">Troca de tela</option>
-          <option value="bateria">Troca de bateria</option>
-        </select>
-
+        
         <h3 id="preco"></h3>
       </div>
+      <input id="pesquisa"" type="text" placeholder="Pesquise aqui..." />
       <div>
         <table id="tabela-celulares" border="1">
           <thead>

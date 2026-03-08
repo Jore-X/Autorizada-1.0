@@ -8,6 +8,7 @@
 /* _________________________________________________ */
 
 header {
+  font-size: clamp(12px, 1.5vw, 25px);
   color: #fff;
   background: url(./assets/img/fundo\ neon.jpg) center;
   background-size: 200%;
@@ -25,6 +26,17 @@ header {
   box-shadow: 0 10px 50px 0px rgba(0, 0, 0, 0.897);
   border-radius: 0 0 20px 20px;
   z-index: 3;
+}
+header > a {
+  position: fixed;
+  top: 0.5vw;
+  left: 0.5vw;
+  z-index: 4;
+}
+header > a > img {
+  /* */
+  width: clamp(40px, 7vh, 100px);
+  border-radius: 50px;
 }
 header > div {
   color: #fff;
@@ -53,13 +65,38 @@ main {
   justify-content: center;
 }
 /* _________________________________________________ */
-footer{
+footer {
   text-align: center;
   color: #fff;
   position: static;
   bottom: 0;
   padding: 2vh;
   background: linear-gradient(to top, #000, gray);
+}
+/* __________________________________________________________________ */
+/* _________________________________________________ */
+select {
+  border: none;
+  background: #c7c7c7;
+  box-shadow: 0 0 5px;
+  margin: 10px;
+}
+select,
+::picker(select) {
+  appearance: base-select;
+  width: 300px;
+  overflow: hidden;
+}
+select:hover,
+option:hover {
+  background: #c7c7c7;
+}
+select > option {
+  border: none;
+  background: #e8e8e8;
+}
+option:checked {
+  background: #c7c7c7;
 }
 /* _________________________________________________ */
 .logo-img {
@@ -68,7 +105,7 @@ footer{
 }
 /* _________________________________________________ */
 .hero-img {
-  width: 45vh;
+  width: clamp(150px, 25vh, 400px);
   top: 15px;
 }
 .hero-title {
@@ -116,11 +153,11 @@ footer{
   border: none;
 }
 
-#button-orcament::before{
+#button-orcament::before {
   content: "";
   position: absolute;
   inset: 3px;
-  background: linear-gradient(90deg, #fff,#fff,red,#fff, #fff, #fff);
+  background: linear-gradient(90deg, #fff, #fff, red, #fff, #fff, #fff);
   background-size: 300% 100%;
   z-index: -1;
   border-radius: 50px;
@@ -139,14 +176,17 @@ footer{
   width: 100%;
   margin-top: 5vh;
   /* background-color: red; */
-  background: linear-gradient(to bottom, red,red,red,gray);
+  background: linear-gradient(to bottom, red, red, red, gray);
 }
-#about > h2 {
+#about-title { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 0 0 20px 20px;
   background: linear-gradient(to bottom, #fff, gray);
   text-align: center;
 }
-#about div {
+#about-text{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -154,6 +194,10 @@ footer{
   border-radius: 15px;
   color: #fff;
   padding: 2vh;
+}
+/* _________________________________________________ */
+#logo-instagram img {
+  width: 50px;
 }
 /* _________________________________________________ */
 #whats-icon {
@@ -167,16 +211,28 @@ footer{
 }
 /* __________________________________________________________________ */
 /* _________________________________________________ */
-#body-pesquisa{
+#body-pesquisa {
   font-family: Arial;
   background: #f4f4f4;
 }
 /* _________________________________________________ */
 #main-pesquisa {
+  padding-top: 5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+/* _________________________________________________ */
+
+#pesquisa {
+  border: none;
+  border-radius: 50px;
+  padding: 0.5rem;
+  box-shadow: 0 0 5px;
+  width: 400px;
+  margin: 10px;
 }
 /* _________________________________________________ */
 #tabela-celulares {
@@ -184,7 +240,8 @@ footer{
   border-collapse: collapse;
   background: white;
 }
-#tabela-celulares th,td {
+#tabela-celulares th,
+td {
   padding: 12px;
   border: 1px solid #ddd;
   text-align: center;
@@ -194,11 +251,15 @@ footer{
   background: #333;
   color: white;
 }
-#tabela-celulares tr:nth-child(even){
+#tabela-celulares tr:nth-child(even) {
   background: #f2f2f2;
 }
-#tabela-celulares tr{
+#tabela-celulares tr {
   background: #ddd;
+}
+
+#filtroModelo {
+  display: none;
 }
 /* _________________________________________________ */
 
@@ -219,7 +280,7 @@ footer{
     transform: scale(1);
   }
 }
-@keyframes borda{
+@keyframes borda {
   from {
     background-position: 0% 0;
   }
@@ -231,19 +292,8 @@ footer{
 /* _________________________________________________ */
 
 @media (max-width: 480px) {
-  header {
-    font-size: small;
-  }
-
   #home {
     flex-direction: column;
-  }
-  #home > img {
-    width: 40vw;
-  }
-
-  #logos img {
-    width: 18vw;
   }
 }
 /* _________________________________________________ */
