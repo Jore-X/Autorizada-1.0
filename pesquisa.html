@@ -9,7 +9,7 @@
   <body id="body-pesquisa">
     <!-- _______________________________________________________________________ -->
     <header>
-      <a href="./index.html"> <img src="./assets/img/Back.jpg" alt=""></a>
+      <a href="./index.html"> <img src="./assets/img/Back.jpg" alt="" /></a>
       <div>
         <h1>Rei dos Celulares</h1>
         <p>Seu celular quebrou ou parou de funcionar? Nós resolvemos.</p>
@@ -21,27 +21,28 @@
         <select id="filtroMarca">
           <option value="">Todas as Marcas</option>
         </select>
-        
-        <select id="filtroModelo">
+
+        <!-- <select id="filtroModelo">
           <option value="">Todos os Modelos</option>
-        </select>
-        
+        </select> -->
+
         <h3 id="preco"></h3>
       </div>
-      <input id="pesquisa"" type="text" placeholder="Pesquise aqui..." />
+      <input id="pesquisa" type="text" placeholder="Pesquise aqui..." />
       <div>
-        <table id="tabela-celulares" border="1">
+        <table id="tabela-celulares" border="2">
           <thead>
             <tr>
               <th>Marca</th>
               <th>Modelo</th>
-              <th>Tela (R$)</th>
-              <th>Bateria (R$)</th>
+              <th>Preços</th>
             </tr>
           </thead>
           <tbody></tbody>
         </table>
       </div>
+      <!-- _________________________________________________________________________ -->
+
       <!-- _________________________________________________________________________ -->
       <a
         id="whats-icon"
@@ -51,7 +52,37 @@
       /></a>
       <!-- _________________________________________________________________________ -->
     </main>
+    <dialog id="dialog">
+      <div class="info-dialog">
+        <h2 id="tituloDialog"></h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Original</th>
+              <th>Primeira Linha</th>
+              <th>Paralela</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Tela</th>
+              <td id="telaOriginal">-</td>
+              <td id="telaPLinha">-</td>
+              <td id="telaParalela">-</td>
+            </tr>
+            <tr>
+              <th>Bateria</th>
+              <td id="BateriaOriginal">-</td>
+              <td id="BateriaPlinha">-</td>
+              <td>-</td>
+            </tr>
+          </tbody>
+        </table>
+        <button id="closeModal"><h4>Fechar</h4></button>
+      </div>
+    </dialog>
     <!-- _______________________________________________________________________ -->
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
   </body>
 </html>

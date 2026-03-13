@@ -134,6 +134,13 @@ option:checked {
   /* animation: orcament 1s ease-in-out infinite alternate; */
 }
 /* _________________________________________________ */
+.info-dialog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* _________________________________________________ */
 #home {
   margin-top: 5vh;
   width: 100%;
@@ -178,7 +185,7 @@ option:checked {
   /* background-color: red; */
   background: linear-gradient(to bottom, red, red, red, gray);
 }
-#about-title { 
+#about-title {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -186,7 +193,7 @@ option:checked {
   background: linear-gradient(to bottom, #fff, gray);
   text-align: center;
 }
-#about-text{
+#about-text {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -260,6 +267,42 @@ td {
 
 #filtroModelo {
   display: none;
+}
+/* _________________________________________________ */
+/*#dialog-container{
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+#dialog {
+  
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  max-width: 90vw;
+  border-radius: 30px;
+
+  color: #fff;
+  border-radius: 30px;
+  border: 5px solid rgba(148, 25, 25, 0.3);
+  background-color: rgba(0, 0, 0, 0.589);
+  backdrop-filter: blur(5px);
+  transition: 1s;
+}
+
+#closeModal {
+  color: #fff;
+  border: 2px solid #858585;
+  background-color: rgb(0, 0, 0);
+  backdrop-filter: blur(5px);
+  border-radius: 30px;
+  padding: 5px;
+  width: 50%;
+  margin: 5px;
 }
 /* _________________________________________________ */
 

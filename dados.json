@@ -1,323 +1,320 @@
 {
-  "Apple": {
-    "iPhone 11": {
-      "tela": 350,
-      "bateria": 200,
-      "conector": 150
-    },
-    "iPhone 11 Pro": {
-      "tela": 450,
-      "bateria": 220,
-      "conector": 160
-    },
-    "iPhone 11 Pro Max": {
-      "tela": 550,
-      "bateria": 250,
-      "conector": 160
-    },
-    "iPhone 12": {
-      "tela": 600,
-      "bateria": 250,
-      "conector": 180
-    },
-    "iPhone 12 Pro": {
-      "tela": 750,
-      "bateria": 280,
-      "conector": 180
-    },
-    "iPhone 12 Pro Max": {
-      "tela": 850,
-      "bateria": 300,
-      "conector": 180
-    },
-    "iPhone 13": {
-      "tela": 750,
-      "bateria": 300,
-      "conector": 200
-    },
-    "iPhone 13 Pro": {
-      "tela": 1100,
-      "bateria": 350,
-      "conector": 200
-    },
-    "iPhone 13 Pro Max": {
-      "tela": 1300,
-      "bateria": 380,
-      "conector": 200
-    },
-    "iPhone 14": {
-      "tela": 900,
-      "bateria": 350,
-      "conector": 220
-    },
-    "iPhone 14 Plus": {
-      "tela": 1050,
-      "bateria": 380,
-      "conector": 220
-    },
-    "iPhone 14 Pro": {
-      "tela": 1400,
-      "bateria": 400,
-      "conector": 250
-    },
-    "iPhone 14 Pro Max": {
-      "tela": 1600,
-      "bateria": 450,
-      "conector": 250
-    },
-    "iPhone 15": {
-      "tela": 1200,
-      "bateria": 400,
-      "conector": 250
-    },
-    "iPhone 15 Plus": {
-      "tela": 1350,
-      "bateria": 420,
-      "conector": 250
-    },
-    "iPhone 15 Pro": {
-      "tela": 1800,
-      "bateria": 450,
-      "conector": 280
-    },
-    "iPhone 15 Pro Max": {
-      "tela": 2100,
-      "bateria": 500,
-      "conector": 280
-    },
-    "iPhone 16": {
-      "tela": 1400,
-      "bateria": 450,
-      "conector": 280
-    },
-    "iPhone 16 Pro Max": {
-      "tela": 2300,
-      "bateria": 550,
-      "conector": 300
-    }
-  },
-
-  "Samsung": {
-    "Galaxy A14": {
-      "tela": 180,
-      "bateria": 120,
-      "conector": 100
-    },
-    "Galaxy A15": {
-      "tela": 200,
-      "bateria": 130,
-      "conector": 110
-    },
-    "Galaxy A24": {
-      "tela": 220,
-      "bateria": 130,
-      "conector": 110
-    },
-    "Galaxy A25": {
-      "tela": 250,
-      "bateria": 140,
-      "conector": 120
-    },
-    "Galaxy A34": {
-      "tela": 300,
-      "bateria": 150,
-      "conector": 120
-    },
-    "Galaxy A35": {
-      "tela": 350,
-      "bateria": 160,
-      "conector": 130
-    },
-    "Galaxy A53": {
-      "tela": 350,
-      "bateria": 160,
-      "conector": 130
-    },
-    "Galaxy A54": {
-      "tela": 420,
-      "bateria": 180,
-      "conector": 140
-    },
-    "Galaxy A55": {
-      "tela": 480,
-      "bateria": 200,
-      "conector": 150
-    },
-    "Galaxy M54": {
-      "tela": 400,
-      "bateria": 220,
-      "conector": 140
-    },
-    "Galaxy S20 FE": {
-      "tela": 450,
-      "bateria": 180,
-      "conector": 150
-    },
-    "Galaxy S21": {
-      "tela": 1100,
-      "bateria": 300,
-      "conector": 180
-    },
-    "Galaxy S21 FE": {
-      "tela": 650,
-      "bateria": 200,
-      "conector": 160
-    },
-    "Galaxy S22": {
-      "tela": 1300,
-      "bateria": 350,
-      "conector": 200
-    },
-    "Galaxy S22 Ultra": {
-      "tela": 1800,
-      "bateria": 450,
-      "conector": 250
-    },
-    "Galaxy S23": {
-      "tela": 1500,
-      "bateria": 400,
-      "conector": 220
-    },
-    "Galaxy S23 FE": {
-      "tela": 900,
-      "bateria": 280,
-      "conector": 180
-    },
-    "Galaxy S23 Ultra": {
-      "tela": 2100,
-      "bateria": 500,
-      "conector": 280
-    },
-    "Galaxy S24": {
-      "tela": 1700,
-      "bateria": 450,
-      "conector": 250
-    },
-    "Galaxy S24 Ultra": {
-      "tela": 2400,
-      "bateria": 550,
-      "conector": 300
-    }
-  },
-
-  "Xiaomi": {
-    "Redmi Note 10": {
-      "tela": 200,
-      "bateria": 120,
-      "conector": 90
-    },
-    "Redmi Note 11": {
-      "tela": 250,
-      "bateria": 140,
-      "conector": 100
-    },
-    "Redmi Note 12": {
-      "tela": 320,
-      "bateria": 160,
-      "conector": 110
-    },
-    "Redmi Note 12 Pro": {
-      "tela": 450,
-      "bateria": 180,
-      "conector": 120
-    },
-    "Redmi Note 13": {
-      "tela": 380,
-      "bateria": 170,
-      "conector": 120
-    },
-    "Redmi Note 13 Pro": {
-      "tela": 550,
-      "bateria": 200,
-      "conector": 140
-    },
-    "Poco X3": {
-      "tela": 280,
-      "bateria": 150,
-      "conector": 110
-    },
-    "Poco X4 Pro": {
-      "tela": 350,
-      "bateria": 170,
-      "conector": 120
-    },
-    "Poco X5": {
-      "tela": 400,
-      "bateria": 180,
-      "conector": 130
-    },
-    "Poco X5 Pro": {
-      "tela": 480,
-      "bateria": 200,
-      "conector": 140
-    },
-    "Poco X6": {
-      "tela": 500,
-      "bateria": 220,
-      "conector": 150
-    },
-    "Poco X6 Pro": {
-      "tela": 600,
-      "bateria": 250,
-      "conector": 160
-    }
-  },
-
-  "Motorola": {
-    "Moto G14": {
-      "tela": 160,
-      "bateria": 110,
-      "conector": 90
-    },
-    "Moto G24": {
-      "tela": 180,
-      "bateria": 120,
-      "conector": 90
-    },
-    "Moto G34": {
-      "tela": 200,
-      "bateria": 130,
-      "conector": 100
-    },
-    "Moto G52": {
-      "tela": 260,
-      "bateria": 140,
-      "conector": 100
-    },
-    "Moto G54": {
-      "tela": 280,
-      "bateria": 150,
-      "conector": 110
-    },
-    "Moto G73": {
-      "tela": 320,
-      "bateria": 160,
-      "conector": 120
-    },
-    "Moto G84": {
-      "tela": 400,
-      "bateria": 180,
-      "conector": 130
-    },
-    "Edge 30": {
-      "tela": 600,
-      "bateria": 200,
-      "conector": 150
-    },
-    "Edge 40": {
-      "tela": 800,
-      "bateria": 250,
-      "conector": 180
-    },
-    "Edge 40 Neo": {
-      "tela": 700,
-      "bateria": 220,
-      "conector": 160
-    },
-    "Edge 50 Pro": {
-      "tela": 1100,
-      "bateria": 300,
-      "conector": 200
-    }
-  }
+ "Apple": {
+ "iPhone 11": {
+ "tela": { "Original": 350, "PrimeiraLinha": 350, "Paralela": 350 },
+ "bateria": 200,
+ "conector": 150
+ },
+ "iPhone 11 Pro": {
+ "tela": { "Original": 450, "PrimeiraLinha": 450, "Paralela": 450 },
+ "bateria": 220,
+ "conector": 160
+ },
+ "iPhone 11 Pro Max": {
+ "tela": { "Original": 550, "PrimeiraLinha": 550, "Paralela": 550 },
+ "bateria": 250,
+ "conector": 160
+ },
+ "iPhone 12": {
+ "tela": { "Original": 600, "PrimeiraLinha": 600, "Paralela": 600 },
+ "bateria": 250,
+ "conector": 180
+ },
+ "iPhone 12 Pro": {
+ "tela": { "Original": 750, "PrimeiraLinha": 750, "Paralela": 750 },
+ "bateria": 280,
+ "conector": 180
+ },
+ "iPhone 12 Pro Max": {
+ "tela": { "Original": 850, "PrimeiraLinha": 850, "Paralela": 850 },
+ "bateria": 300,
+ "conector": 180
+ },
+ "iPhone 13": {
+ "tela": { "Original": 750, "PrimeiraLinha": 750, "Paralela": 750 },
+ "bateria": 300,
+ "conector": 200
+ },
+ "iPhone 13 Pro": {
+ "tela": { "Original": 1100, "PrimeiraLinha": 1100, "Paralela": 1100 },
+ "bateria": 350,
+ "conector": 200
+ },
+ "iPhone 13 Pro Max": {
+ "tela": { "Original": 1300, "PrimeiraLinha": 1300, "Paralela": 1300 },
+ "bateria": 380,
+ "conector": 200
+ },
+ "iPhone 14": {
+ "tela": { "Original": 900, "PrimeiraLinha": 900, "Paralela": 900 },
+ "bateria": 350,
+ "conector": 220
+ },
+ "iPhone 14 Plus": {
+ "tela": { "Original": 1050, "PrimeiraLinha": 1050, "Paralela": 1050 },
+ "bateria": 380,
+ "conector": 220
+ },
+ "iPhone 14 Pro": {
+ "tela": { "Original": 1400, "PrimeiraLinha": 1400, "Paralela": 1400 },
+ "bateria": 400,
+ "conector": 250
+ },
+ "iPhone 14 Pro Max": {
+ "tela": { "Original": 1600, "PrimeiraLinha": 1600, "Paralela": 1600 },
+ "bateria": 450,
+ "conector": 250
+ },
+ "iPhone 15": {
+ "tela": { "Original": 1200, "PrimeiraLinha": 1200, "Paralela": 1200 },
+ "bateria": 400,
+ "conector": 250
+ },
+ "iPhone 15 Plus": {
+ "tela": { "Original": 1350, "PrimeiraLinha": 1350, "Paralela": 1350 },
+ "bateria": 420,
+ "conector": 250
+ },
+ "iPhone 15 Pro": {
+ "tela": { "Original": 1800, "PrimeiraLinha": 1800, "Paralela": 1800 },
+ "bateria": 450,
+ "conector": 280
+ },
+ "iPhone 15 Pro Max": {
+ "tela": { "Original": 2100, "PrimeiraLinha": 2100, "Paralela": 2100 },
+ "bateria": 500,
+ "conector": 280
+ },
+ "iPhone 16": {
+ "tela": { "Original": 1400, "PrimeiraLinha": 1400, "Paralela": 1400 },
+ "bateria": 450,
+ "conector": 280
+ },
+ "iPhone 16 Pro Max": {
+ "tela": { "Original": 2300, "PrimeiraLinha": 2300, "Paralela": 2300 },
+ "bateria": 550,
+ "conector": 300
+ }
+ },
+ "Samsung": {
+ "Galaxy A14": {
+ "tela": { "Original": 180, "PrimeiraLinha": 180, "Paralela": 180 },
+ "bateria": 120,
+ "conector": 100
+ },
+ "Galaxy A15": {
+ "tela": { "Original": 200, "PrimeiraLinha": 200, "Paralela": 200 },
+ "bateria": 130,
+ "conector": 110
+ },
+ "Galaxy A24": {
+ "tela": { "Original": 220, "PrimeiraLinha": 220, "Paralela": 220 },
+ "bateria": 130,
+ "conector": 110
+ },
+ "Galaxy A25": {
+ "tela": { "Original": 250, "PrimeiraLinha": 250, "Paralela": 250 },
+ "bateria": 140,
+ "conector": 120
+ },
+ "Galaxy A34": {
+ "tela": { "Original": 300, "PrimeiraLinha": 300, "Paralela": 300 },
+ "bateria": 150,
+ "conector": 120
+ },
+ "Galaxy A35": {
+ "tela": { "Original": 350, "PrimeiraLinha": 350, "Paralela": 350 },
+ "bateria": 160,
+ "conector": 130
+ },
+ "Galaxy A53": {
+ "tela": { "Original": 350, "PrimeiraLinha": 350, "Paralela": 350 },
+ "bateria": 160,
+ "conector": 130
+ },
+ "Galaxy A54": {
+ "tela": { "Original": 420, "PrimeiraLinha": 420, "Paralela": 420 },
+ "bateria": 180,
+ "conector": 140
+ },
+ "Galaxy A55": {
+ "tela": { "Original": 480, "PrimeiraLinha": 480, "Paralela": 480 },
+ "bateria": 200,
+ "conector": 150
+ },
+ "Galaxy M54": {
+ "tela": { "Original": 400, "PrimeiraLinha": 400, "Paralela": 400 },
+ "bateria": 220,
+ "conector": 140
+ },
+ "Galaxy S20 FE": {
+ "tela": { "Original": 450, "PrimeiraLinha": 450, "Paralela": 450 },
+ "bateria": 180,
+ "conector": 150
+ },
+ "Galaxy S21": {
+ "tela": { "Original": 1100, "PrimeiraLinha": 1100, "Paralela": 1100 },
+ "bateria": 300,
+ "conector": 180
+ },
+ "Galaxy S21 FE": {
+ "tela": { "Original": 650, "PrimeiraLinha": 650, "Paralela": 650 },
+ "bateria": 200,
+ "conector": 160
+ },
+ "Galaxy S22": {
+ "tela": { "Original": 1300, "PrimeiraLinha": 1300, "Paralela": 1300 },
+ "bateria": 350,
+ "conector": 200
+ },
+ "Galaxy S22 Ultra": {
+ "tela": { "Original": 1800, "PrimeiraLinha": 1800, "Paralela": 1800 },
+ "bateria": 450,
+ "conector": 250
+ },
+ "Galaxy S23": {
+ "tela": { "Original": 1500, "PrimeiraLinha": 1500, "Paralela": 1500 },
+ "bateria": 400,
+ "conector": 220
+ },
+ "Galaxy S23 FE": {
+ "tela": { "Original": 900, "PrimeiraLinha": 900, "Paralela": 900 },
+ "bateria": 280,
+ "conector": 180
+ },
+ "Galaxy S23 Ultra": {
+ "tela": { "Original": 2100, "PrimeiraLinha": 2100, "Paralela": 2100 },
+ "bateria": 500,
+ "conector": 280
+ },
+ "Galaxy S24": {
+ "tela": { "Original": 1700, "PrimeiraLinha": 1700, "Paralela": 1700 },
+ "bateria": 450,
+ "conector": 250
+ },
+ "Galaxy S24 Ultra": {
+ "tela": { "Original": 2400, "PrimeiraLinha": 2400, "Paralela": 2400 },
+ "bateria": 550,
+ "conector": 300
+ }
+ },
+ "Xiaomi": {
+ "Redmi Note 10": {
+ "tela": { "Original": 200, "PrimeiraLinha": 200, "Paralela": 200 },
+ "bateria": 120,
+ "conector": 90
+ },
+ "Redmi Note 11": {
+ "tela": { "Original": 250, "PrimeiraLinha": 250, "Paralela": 250 },
+ "bateria": 140,
+ "conector": 100
+ },
+ "Redmi Note 12": {
+ "tela": { "Original": 320, "PrimeiraLinha": 320, "Paralela": 320 },
+ "bateria": 160,
+ "conector": 110
+ },
+ "Redmi Note 12 Pro": {
+ "tela": { "Original": 450, "PrimeiraLinha": 450, "Paralela": 450 },
+ "bateria": 180,
+ "conector": 120
+ },
+ "Redmi Note 13": {
+ "tela": { "Original": 380, "PrimeiraLinha": 380, "Paralela": 380 },
+ "bateria": 170,
+ "conector": 120
+ },
+ "Redmi Note 13 Pro": {
+ "tela": { "Original": 550, "PrimeiraLinha": 550, "Paralela": 550 },
+ "bateria": 200,
+ "conector": 140
+ },
+ "Poco X3": {
+ "tela": { "Original": 280, "PrimeiraLinha": 280, "Paralela": 280 },
+ "bateria": 150,
+ "conector": 110
+ },
+ "Poco X4 Pro": {
+ "tela": { "Original": 350, "PrimeiraLinha": 350, "Paralela": 350 },
+ "bateria": 170,
+ "conector": 120
+ },
+ "Poco X5": {
+ "tela": { "Original": 400, "PrimeiraLinha": 400, "Paralela": 400 },
+ "bateria": 180,
+ "conector": 130
+ },
+ "Poco X5 Pro": {
+ "tela": { "Original": 480, "PrimeiraLinha": 480, "Paralela": 480 },
+ "bateria": 200,
+ "conector": 140
+ },
+ "Poco X6": {
+ "tela": { "Original": 500, "PrimeiraLinha": 500, "Paralela": 500 },
+ "bateria": 220,
+ "conector": 150
+ },
+ "Poco X6 Pro": {
+ "tela": { "Original": 600, "PrimeiraLinha": 600, "Paralela": 600 },
+ "bateria": 250,
+ "conector": 160
+ }
+ },
+ "Motorola": {
+ "Moto G14": {
+ "tela": { "Original": 160, "PrimeiraLinha": 160, "Paralela": 160 },
+ "bateria": 110,
+ "conector": 90
+ },
+ "Moto G24": {
+ "tela": { "Original": 180, "PrimeiraLinha": 180, "Paralela": 180 },
+ "bateria": 120,
+ "conector": 90
+ },
+ "Moto G34": {
+ "tela": { "Original": 200, "PrimeiraLinha": 200, "Paralela": 200 },
+ "bateria": 130,
+ "conector": 100
+ },
+ "Moto G52": {
+ "tela": { "Original": 260, "PrimeiraLinha": 260, "Paralela": 260 },
+ "bateria": 140,
+ "conector": 100
+ },
+ "Moto G54": {
+ "tela": { "Original": 280, "PrimeiraLinha": 280, "Paralela": 280 },
+ "bateria": 150,
+ "conector": 110
+ },
+ "Moto G73": {
+ "tela": { "Original": 320, "PrimeiraLinha": 320, "Paralela": 320 },
+ "bateria": 160,
+ "conector": 120
+ },
+ "Moto G84": {
+ "tela": { "Original": 400, "PrimeiraLinha": 400, "Paralela": 400 },
+ "bateria": 180,
+ "conector": 130
+ },
+ "Edge 30": {
+ "tela": { "Original": 600, "PrimeiraLinha": 600, "Paralela": 600 },
+ "bateria": 200,
+ "conector": 150
+ },
+ "Edge 40": {
+ "tela": { "Original": 800, "PrimeiraLinha": 800, "Paralela": 800 },
+ "bateria": 250,
+ "conector": 180
+ },
+ "Edge 40 Neo": {
+ "tela": { "Original": 700, "PrimeiraLinha": 700, "Paralela": 700 },
+ "bateria": 220,
+ "conector": 160
+ },
+ "Edge 50 Pro": {
+ "tela": { "Original": 1100, "PrimeiraLinha": 1100, "Paralela": 1100 },
+ "bateria": 300,
+ "conector": 200
+ }
+ }
 }
